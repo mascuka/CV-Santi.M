@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* -----------------------------------------------HEADER------------------------------------------------------------*/
+header{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #F2E9E4;
+    border-radius: 2%;
+    
+}
+
+.mi-foto{
+    margin-top: 15px;
+    width: 150px;
+    border-radius: 30%;  
+    padding-right: 20px; 
+    margin-bottom: 10px;
+}
+.mi-nombre{
+    margin-top: 40px;
+    padding: 20px;
+}
+/* -----------------------------------------------SECTION------------------------------------------------------------*/
+section{
+    background-color: rgba(0,0,0,0.7);
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+}
+section div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+section img{
+    width: 30px;
+    padding: 5px;
+}
+section p{ 
+    display: inline;
+    padding: 5px;
+    color: blanchedalmond;
+}
+
+/* -----------------------------------------------MAIN------------------------------------------------------------*/
+main{
+    width: 40%;
+    margin: 0 auto;
+}
+
+main >div{
+    background-color: #F2E9E4;
+    border-radius: 2%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+/* ---------------------------------- experiencia y  formacion ---------------------------------------------------*/
+
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.info-1, .info-2, .info-3{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.contenido{
+    margin-left: 40px;
+}
+/* ---------------------------------- conocimientos ---------------------------------------------------*/
+.conocimientos{
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+}
+
+.borde{
+    border: solid 1px black;
+    height: 140px;
+}
+    
+.prog{
+    display: flex;
+    margin: 3px;
+}
+
+.prog >p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habi{
+    margin-bottom: 0px;
+}
+
+a{
+    color: black;
+    display: flex;
+    
+}
+
+
+/*----------------------------------------idiomas---------------------------------------*/
+.idioma-estilo{
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around; 
+    padding: 2px;
+    padding-bottom: 20px;
+
+}
+.idioma{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.idioma img{
+    margin: 10px;
+}
+
+
+/* -----------------------------------------------FOOTER------------------------------------------------------------*/
+
+footer{
+    background-color: rgba(0,0,0,0.7);
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+
+footer p{ 
+    padding: 20px;
+    color: blanchedalmond
+
+}
+/* -----------------------------------------------it------------------------------------------------------------*/
+
+.it{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.foto-it{
+    border: solid 1px black;
+}
