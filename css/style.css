@@ -70,6 +70,9 @@ main >div{
 h2{
     display: flex;
     justify-content: center;
+    border-bottom: dashed 2px black;
+    margin: 3px;
+    padding: 3px;
 }
 
 
@@ -80,6 +83,7 @@ h2{
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 40px;
+    font-family: 'Copse', serif;
 }
 
 .contenido{
