@@ -8,7 +8,7 @@
 header{
     display: flex;
     justify-content: center;
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
     background-color: #F2E9E4;
     border-radius: 2%;
@@ -29,7 +29,7 @@ header{
 /* -----------------------------------------------SECTION------------------------------------------------------------*/
 section{
     background-color: rgba(0,0,0,0.7);
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 5px;
     padding: 3px;
@@ -54,7 +54,7 @@ section p{
 
 /* -----------------------------------------------MAIN------------------------------------------------------------*/
 main{
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -154,7 +154,7 @@ a{
 
 footer{
     background-color: rgba(0,0,0,0.7);
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 5px;
     list-style: none;
@@ -173,12 +173,17 @@ footer p{
 
 }
 /* -----------------------------------------------movil-tablet ------------------------------------------------------------*/
-@media (max-width:1450px) {
+@media (max-width:690px) {
     header{
         width: 100%;
     }
     section{
         width: 100%;
+        margin: 0 auto;
+        display: grid;
+        justify-content: center;
+        height: 150px;
+
     }
     main{
         width: 100%;
@@ -188,6 +193,23 @@ footer p{
     }
     
 }
+
+@media (min-width:691px) and (max-width:1400px) {
+    header{
+        width: 80%;
+    }
+    section{
+        width: 80%;
+    }
+    main{
+        width: 80%;
+    }
+    footer{
+        width: 80%;
+    }
+    
+}
+
 
 
 
