@@ -32,9 +32,10 @@ section{
     width: 40%;
     margin: 0 auto;
     margin-top: 5px;
-    list-style: none;
+    padding: 3px;
     display: flex;
     justify-content: space-between; 
+    border-radius: 2%;
 }
 section div{
     display: flex;
@@ -122,6 +123,11 @@ a{
     
 }
 
+.certificados{
+    text-decoration: none;
+    
+}
+
 
 /*----------------------------------------idiomas---------------------------------------*/
 .idioma-estilo{
@@ -154,6 +160,9 @@ footer{
     list-style: none;
     display: flex;
     justify-content: space-between; 
+    border-radius: 2%;
+    
+
 }
 
 
@@ -163,6 +172,28 @@ footer p{
     color: blanchedalmond
 
 }
+/* -----------------------------------------------movil-tablet ------------------------------------------------------------*/
+@media (max-width:1450px) {
+    header{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
 /* -----------------------------------------------it------------------------------------------------------------*/
 
 .it{
